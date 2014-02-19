@@ -17,6 +17,7 @@ public class app {
 		for (int i = 0; i < 2; i++) {
 			executor.submit(tbenchmark);
 		}
+		
 		executor.shutdown();
 		
 //		Benchmark benchmark = new SimpleBenchmark();
